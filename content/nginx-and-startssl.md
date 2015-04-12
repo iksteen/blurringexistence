@@ -1,6 +1,6 @@
 Title: nginx and StartSSL
 Date: 2010-07-21 21:45
-Author: nospam@example.com (Ingmar Steen)
+Author: Ingmar Steen
 Tags: nginx
 Slug: nginx-and-startssl
 
