@@ -1,0 +1,6 @@
+.DS_store
+.idea/
+*.pyc
+*.pid
+output/
+cache/

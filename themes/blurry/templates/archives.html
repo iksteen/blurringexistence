@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<header>Archives for {{ SITENAME }}</header>
+
+{% for article in dates %}
+<article class="index">
+    {% include "article-header.html" %}
+</article>
+{% endfor %}
+
+{% endblock %}

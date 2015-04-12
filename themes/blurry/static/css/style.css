@@ -1,0 +1,304 @@
+/*
+    Theme Name: Blurry
+    Theme URI: http://blurringexistence.net
+
+    License: MIT
+    License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: auto;
+    min-height: 100%;
+    display: block;
+}
+
+body {
+    font: 300 14px Tahoma, Verdana, Arial, Helvetica, sans-serif;;
+    margin: 0;
+    min-height: 100%;
+    display: block;
+    overflow: auto;
+    background: #2e5a82;
+}
+
+/* Page layout */
+
+.wrapper {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 0;
+    height: auto;
+    border-radius: 1em;
+    background: transparent url('../img/pixel-ffffffc0.png') repeat;
+}
+
+main {
+    padding: 2em;
+    margin-top: 1em;
+    width: auto;
+    overflow: hidden;
+}
+
+aside {
+    float: right;
+    width: 15em;
+    margin-top: 3em;
+}
+
+.page-header {
+    background: transparent url('../img/pixel-8080b640.png') repeat;
+    padding: 1em 2em 3em 2em;
+    border-radius: 1em 1em 0 0;
+}
+
+.page-header h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 1.5em;
+}
+
+.page-header h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 1em;
+}
+
+.collapse-button {
+    float: right;
+    display: none;
+}
+
+.wrapper>footer {
+    background: transparent url('../img/pixel-8080b640.png') repeat;
+    border-radius: 0 0 1em 1em;
+    padding: 0.5em 2em;
+}
+
+.wrapper>footer>p {
+    font-size: 0.75em;
+}
+
+article.index {
+    margin-bottom: 2em;
+}
+
+article>header time {
+    display: block;
+    font-size: 0.75em;
+}
+
+article>header .title {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+article>footer {
+    font-size: 0.75em;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0.5em 0;
+}
+
+aside>section {
+    font-size: 0.75em;
+    background: transparent url('../img/pixel-8080b640.png') repeat;
+    border-radius: 1em 0 0 1em;
+    padding: 1em 1em 1em 1.5em;
+    margin-bottom: 2em;
+}
+
+aside>section>header {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 95%;
+    letter-spacing: .2em;
+    color: #505050;
+}
+
+aside>section ul,
+aside>section li {
+    list-style: none;
+    padding: 0;
+}
+
+aside>section ul {
+    margin-bottom: 1em;
+}
+
+aside>section#tweets ul {
+    margin-left: 1em;
+}
+
+aside>section#tweets li {
+    margin: 0.5em 0;
+}
+
+/* General styling */
+
+pre {
+    overflow: scroll;
+}
+
+body,
+.page-header a, .page-header a:hover {
+    color: #505050;
+}
+
+a {
+    color: #1f5f7f;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:focus,
+a:hover,
+a:active {
+    outline: 0;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid #04A4CC;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+::selection {
+    background: #04A4CC;
+    color: white;
+    text-shadow: none;
+}
+::-webkit-selection {
+    background: #04A4CC;
+    color: white;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #04A4CC;
+    color: white;
+    text-shadow: none;
+}
+
+/* Utility classes */
+
+.clear:before,
+.clear:after {
+    content: ' ';
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+.clear {
+    *zoom: 1;
+}
+
+/* Background */
+
+div.bg-main {
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1337;
+}
+
+div.img-front {
+	width: 100%;
+    height: 100%;
+    background: url('../img/background.jpg');
+    background-size: cover;
+    position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+/* Mobile / small screens */
+
+@media all and (max-width: 960px) {
+    .wrapper {
+        margin: 0.5em;
+        border-radius: 0.75em;
+    }
+
+    .page-header {
+        padding: 1em;
+        font-size: 0.75em;
+    }
+
+    main {
+        padding: 0.75em;
+    }
+
+    aside>section {
+        font-size: 1em;
+    }
+
+    .wrapper>footer {
+        padding: 1px 0.75em;
+        border-radius: 0 0 0.75em 0.75em;
+    }
+}
+
+@media all and (orientation: portrait) and (max-width: 960px) {
+    .collapse-button {
+        display: inline;
+    }
+
+    .collapsed {
+        display: none;
+    }
+
+    main,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    aside {
+        border-top: 1px solid #dfdfdf;
+        margin: 0 0 0.75em 0;
+        padding: 0;
+    }
+
+    aside>section {
+        border-radius: 0;
+        margin-bottom: 0;
+        padding: 0.75em;
+    }
+    aside>section#tweets ul {
+        margin-left: 1.5em;
+    }
+}
+
+@media all and (orientation: landscape) and (max-width: 960px) {
+    .collapse-button {
+        display: inline;
+    }
+
+    .collapsed {
+        display: none;
+    }
+
+    aside {
+        margin-top: 1.5em;
+    }
+}
