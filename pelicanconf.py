@@ -31,8 +31,15 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
 LINKS = (
+    (
+        'Projects',
+        (
+            ('pwnypack', 'https://github.com/edibledinos/pwnypack'),
+            ('pelican-albums', 'https://github.com/iksteen/pelican-albums'),
+            ('automatron', 'https://github.com/automatron'),
+        ),
+    ),
     (
         '(Web)hosting providers',
         (
