@@ -1,7 +1,7 @@
 Title: A new layout
 Date: 2015-04-14 22:30
 Author: Ingmar Steen
-Tags: meta, webdesign
+Tags: meta, webdesign, pelican
 Slug: a-new-layout
 
 As you might have noticed, the layout of blurringexistence.net has changed quite a bit. I also switched out s9y for
