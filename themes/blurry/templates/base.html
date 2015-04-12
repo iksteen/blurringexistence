@@ -54,8 +54,14 @@
 
         <aside role="complementary" class="collapsed">
             {% block sidebar %}
-            <section id="pages">
-                <header>Content</header>
+            <section id="content">
+                <header>Tags</header>
+                <ul class="tagcloud">
+                    {% for tag in tag_cloud|sort %}
+                    <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
+                    {% endfor %}
+                </ul>
+                <header>Pages</header>
                 <ul>
                     {% for p in PAGES %}
                     <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>

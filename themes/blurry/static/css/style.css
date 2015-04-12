@@ -143,6 +143,27 @@ aside>section#tweets li {
     margin: 0.5em 0;
 }
 
+/* Tag cloud */
+ul.tagcloud li {
+    display: inline-block;
+}
+
+ul.tagcloud li.tag-1 {
+    font-size: 130%;
+}
+
+ul.tagcloud li.tag-2 {
+    font-size: 115%;
+}
+
+ul.tagcloud li.tag-3 {
+    font-size: 100%;
+}
+
+ul.tagcloud li.tag-4 {
+    font-size: 85%;
+}
+
 /* General styling */
 
 pre {
