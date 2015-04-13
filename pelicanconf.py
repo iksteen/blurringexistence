@@ -14,7 +14,6 @@ PATH = 'content'
 THEME = 'themes/blurry'
 
 PLUGINS = ['pelican_albums']
-ARTICLE_EXCLUDES = ['images']
 MD_EXTENSIONS = [
     'codehilite(css_class=highlight, guess_lang=False, linenums=False)',
     'extra',
