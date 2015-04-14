@@ -10,5 +10,5 @@ path from becoming articles or pages.
 Get it now:
 
 - `pip install -U pelican-albums`
-- [pelican-albums 0.5.1 on pypi](https://pypi.python.org/pypi/pelican-albums/0.5.1)
+- [pelican-albums 0.5.1 on PyPI](https://pypi.python.org/pypi/pelican-albums/0.5.1)
 - [pelican-albums 0.5.1 on GitHub](https://github.com/iksteen/pelican-albums/releases/tag/v0.5.1)
