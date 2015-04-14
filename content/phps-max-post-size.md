@@ -2,7 +2,6 @@ Title: PHP's max_post_size
 Date: 2010-10-27 10:04
 Author: Ingmar Steen
 Tags: photography, zenphoto
-Slug: phps-max_post_size
 
 When trying to set up a Zenphoto gallery on blurringexistence.net I
 needed to upload a rather large zip archive (1.4GB) containing quite a

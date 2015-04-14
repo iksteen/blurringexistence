@@ -2,7 +2,6 @@ Title: Serendipity and nginx
 Date: 2010-07-21 09:34
 Author: Ingmar Steen
 Tags: meta, nginx, serendipity
-Slug: serendipity-and-nginx
 
 I use nginx as my primary webserver for applications hosted on
 TheGraveyard.org, mainly because it's simple to configure and use,

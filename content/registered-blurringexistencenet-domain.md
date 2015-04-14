@@ -2,7 +2,6 @@ Title: Registered blurringexistence.net domain!
 Date: 2010-07-21 13:53
 Author: Ingmar Steen
 Tags: hosting, meta
-Slug: registered-blurringexistencenet-domain
 
 I just registered and set up my new
 [blurringexistence.net](http://blurringexistence.net/) domain name.

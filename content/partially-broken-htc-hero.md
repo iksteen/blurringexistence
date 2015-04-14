@@ -2,7 +2,6 @@ Title: Partially broken HTC Hero
 Date: 2010-09-22 09:52
 Author: Ingmar Steen
 Tags: android, personal
-Slug: partially-broken-htc-hero
 
 The digitizer (touchscreen) of my HTC Hero
 broke partially: Most of the time, the bottom row is very unresponsive,

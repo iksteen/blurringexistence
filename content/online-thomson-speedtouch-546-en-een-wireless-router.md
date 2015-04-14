@@ -2,7 +2,6 @@ Title: Online, Thomson SpeedTouch 546 en een wireless router
 Date: 2011-03-10 21:00
 Author: Ingmar Steen
 Tags: technical
-Slug: online-thomson-speedtouch-546-en-een-wireless-router
 
 **Note**: This entry is in Dutch because it concerns an ADSL setup
 that’s pretty specific to a Dutch internet provider. If you’re

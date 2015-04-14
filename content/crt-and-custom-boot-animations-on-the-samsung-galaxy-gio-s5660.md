@@ -2,7 +2,6 @@ Title: CRT and custom boot animations on the Samsung Galaxy Gio S5660
 Date: 2011-08-07 13:53
 Author: Ingmar Steen
 Tags: samsung gio
-Slug: crt-and-custom-boot-animations-on-the-samsung-galaxy-gio-s5660
 
 ### Disclaimer:
 

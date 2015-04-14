@@ -11,6 +11,7 @@ DEFAULT_LANG = u'en'
 
 RELATIVE_URLS = True
 PATH = 'content'
+FILENAME_METADATA = '(?P<slug>.*)'
 THEME = 'themes/blurry'
 
 PLUGINS = ['pelican_albums']

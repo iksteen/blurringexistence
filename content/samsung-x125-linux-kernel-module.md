@@ -2,7 +2,6 @@ Title: Samsung X125 linux kernel module
 Date: 2011-02-10 19:29
 Author: Ingmar Steen
 Tags: linux, samsung x125
-Slug: samsung-x125-linux-kernel-module
 
 After installing Arch Linux on my new Samsung X125 laptop I noticed that
 there were quite a few knobs I couldn't turn when using just the drivers

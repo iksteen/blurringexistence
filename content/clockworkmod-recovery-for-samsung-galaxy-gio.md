@@ -2,7 +2,6 @@ Title: ClockworkMod Recovery for Samsung Galaxy Gio
 Date: 2011-08-26 07:05
 Author: Ingmar Steen
 Tags: samsung gio
-Slug: clockworkmod-recovery-for-samsung-galaxy-gio
 
 I just released the first version of my ClockworkMod Recovery port for
 the Samsung Galaxy Gio GT-S5660 on [Particle

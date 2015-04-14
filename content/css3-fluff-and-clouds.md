@@ -2,7 +2,6 @@ Title: CSS3 fluff and clouds
 Date: 2010-09-21 13:45
 Author: Ingmar Steen
 Tags: meta, photography, webdesign
-Slug: css3-fluff-and-clouds
 
 Added some CSS3 fluff to pretty-up Blurring Existence, also changed the
 horrible purple color scheme to blue. Works properly with Firefox 3.6

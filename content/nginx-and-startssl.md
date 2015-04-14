@@ -2,7 +2,6 @@ Title: nginx and StartSSL
 Date: 2010-07-21 21:45
 Author: Ingmar Steen
 Tags: nginx
-Slug: nginx-and-startssl
 
 If you get a (free) SSL certificate and key
 from [StartSSL](http://www.startssl.com) it might not be obvious how to

@@ -2,7 +2,6 @@ Title: Broken static page pretty urls
 Date: 2011-04-22 08:27
 Author: Ingmar Steen
 Tags: meta, serendipity
-Slug: broken-static-page-pretty-urls
 
 Somehow the pretty URLs to static pages on this s9y install stopped
 working (returning a 404) and I have no idea why.

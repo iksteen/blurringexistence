@@ -2,7 +2,6 @@ Title: A new layout
 Date: 2015-04-14 22:30
 Author: Ingmar Steen
 Tags: meta, webdesign, pelican
-Slug: a-new-layout
 
 As you might have noticed, the layout of blurringexistence.net has changed quite a bit. I also switched out s9y for
 Pelican which generates static html instead of having to host a server side dynamic CMS. I really don't like doing

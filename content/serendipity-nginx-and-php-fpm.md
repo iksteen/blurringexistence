@@ -2,7 +2,6 @@ Title: Serendipity, nginx and php-fpm
 Date: 2010-07-27 07:37
 Author: Ingmar Steen
 Tags: meta, nginx, serendipity
-Slug: serendipity-nginx-and-php-fpm
 
 Arch Linux (the linux distribution I use) updated PHP to 5.3.3
 yesterday and added the php-fpm package

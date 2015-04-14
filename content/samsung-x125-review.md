@@ -2,7 +2,6 @@ Title: Samsung X125 review
 Date: 2011-02-09 10:12
 Author: Ingmar Steen
 Tags: personal, samsung x125
-Slug: samsung-x125-review
 
 I just published an initial version of my review of my new subnotebook /
 mini-laptop / whatever it's called: [Samsung X125

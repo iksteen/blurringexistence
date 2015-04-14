@@ -2,7 +2,6 @@ Title: 'Ethisch Hacken'
 Date: 2010-12-18 22:34
 Author: Ingmar Steen
 Tags: personal, technical
-Slug: ethisch-hacken
 
 Zaterdag (2010-12-18) ben ik (met Tommy) naar Revelation Space in Den
 Haag geweest. Hier was een bijeenkomst met lezingen over 'Ethisch
