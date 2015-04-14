@@ -1,5 +1,5 @@
 Title: pelican-albums 0.5.1
-Date: 2014-04-14 12:00
+Date: 2015-04-14 12:00
 Author: Ingmar Steen
 Tags: pelican, python
 
