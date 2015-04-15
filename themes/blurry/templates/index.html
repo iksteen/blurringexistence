@@ -5,6 +5,9 @@
 <article class="index">
     {% include "article-header.html" %}
     {{ article.summary }}
+    {% if article.summary != article.content %}
+        <p><a href="{{ SITE_URL }}/{{ article.url }}">read more...</a></p>
+    {% endif %}
     {% include "article-footer.html" %}
 </article>
 {% endfor %}
