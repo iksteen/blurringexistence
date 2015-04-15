@@ -1,10 +1,16 @@
 Title: Multi-player pelican
 Date: 2015-04-14 21:09
-Tags: python, pelican, meta
+Tags: pelican, python, meta
+
+In this article I describe a way to share a pelican install between multiple authors using a workflow which involves GitHub and an automated server-side build system.
+
+<!-- PELICAN_END_SUMMARY -->
 
 ### Preamble
 
-To replace the wordpress [Certified Edible Dinosaurs](http://ced.pwned.systems/) website with a pelican based site, we needed an infrastructure where multiple persons could edit not only the content, but also the settings and the theme of the pelican install. Since we don't mind having everything out in the open, we decided not to mind storing the entire pelican directory (minus the cache and output folders) on GitHub. We're a small team and we trust eachother so allowing each member to push to the repository and having a VPS automatically build the final website is not a problem.
+To replace the wordpress [Certified Edible Dinosaurs](http://ced.pwned.systems/) website with a pelican based site, we needed an infrastructure where multiple persons could edit not only the content, but also the settings and the theme of the pelican install. Since we don't mind having everything out in the open, we decided also not to mind storing the entire pelican directory (minus the cache and output folders) on GitHub. We're a small team and we trust eachother so allowing each member to push to the repository and having a VPS automatically build the final website is not a problem.
+
+If the same level of trust does not apply to your team, you can use the same set up but use pull requests to allow the site maintainer to preview the changes made by the other team members. To tighten things down further, you can adjust this set up to only share the pelican install's *content* directory (although this will require quite a few adjustments to the *update.sh* script below).
 
 ### The set up
 
@@ -53,7 +59,7 @@ Next we'll create the service that will handle the GitHub webhook events.
     if __name__ == '__main__':
         app.run()
 
-When this script receives a push event from GitHub, *flask-hookserver* will first verify the originating IP address to see if the event really came from GitHub. It will also check the signature of the event which implies a check of the secret. The script will then check if the owner of the repository being pushed is trusted. If all these conditions are met, it will call the *update.sh* script which resides in the same directory as this script with two parameters: the full name of the repository (*username/repository*) and the URL that can be used to clone the repository.
+When this script receives a push event from GitHub, *flask-hookserver* will first verify the originating IP address to see if the event really came from GitHub. It will also check the signature of the event which implies a check of the secret. The script will then check if the owner of the repository being pushed is trusted. Note that it does not verify if the user performing the push is trusted as that is already verified by GitHub. If all these conditions are met, it will call the *update.sh* script which resides in the same directory as this script with two parameters: the full name of the repository (*username/repository*) and the URL that can be used to clone the repository.
 
 ### Pulling some strings
 
@@ -76,6 +82,7 @@ Let's create a script that will create or update the repositories and build the 
         exit 1
     }
     if [ ! -d "$SITE_DIR" ]; then
+        mkdir -p "$SITE_DIR" || exit 1
         virtualenv "$SITE_DIR" || fail
         cd "$SITE_DIR" || fail
         git clone "$2" site || fail
@@ -98,7 +105,7 @@ Once the repository is set up or updated, it activates the site's very own virtu
 
 Now, start the webservice. I'll leave that as an excercise to you, the reader. I use *uwsgi* which is started by *supervisor* and connected to the outside world using *nginx*. Configure your GitHub webhook (don't forget to enter the same secret as the one you used in the webhook script).
 
-The final step is configuring your webserver to serve the completely static content found in *~pelican/sites/username/repository/public_html*.
+The final step is configuring your webserver to serve the static content found in *~pelican/sites/username/repository/public_html*.
 
 ### Publishing content
 
