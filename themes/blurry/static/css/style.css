@@ -231,6 +231,11 @@ img {
     *zoom: 1;
 }
 
+/* Align tweet button with facebook button */
+.twitter-share-button[style] {
+    vertical-align: text-bottom !important;
+}
+
 /* Background */
 
 div.bg-main {
