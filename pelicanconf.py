@@ -23,6 +23,7 @@ MD_EXTENSIONS = [
 
 DEFAULT_PAGINATION = 10
 TYPOGRIFY = True
+THUMBNAIL_OUTPUT_FORMAT = 'PNG'
 THUMBNAIL_DEFAULT_SIZE = '192x192'
 
 # Feed generation is usually not desired when developing
