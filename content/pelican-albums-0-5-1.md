@@ -7,6 +7,8 @@ I've released version 0.5.1 of pelican-albums (my image album and thumbnail plug
 change (apart from some documentation improvements) is that it now automatically excludes documents inside the album
 path from becoming articles or pages.
 
+<!-- PELICAN_END_SUMARY -->
+
 Get it now:
 
 - `pip install -U pelican-albums`
