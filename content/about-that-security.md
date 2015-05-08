@@ -2,7 +2,6 @@ Title: About that security
 Date: 2015-05-07 21:17
 Author: Ingmar Steen
 Tags: security
-Status: draft
 
 The context of this rant is [a conversation with Tracy Osborn](http://importpython.com/blog/post/conversation-tracy-osborn-author-hellowebapp) on the importpython blog.
 
