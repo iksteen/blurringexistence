@@ -35,37 +35,22 @@ AUTHOR_FEED_RSS = None
 
 LINKS = (
     (
-        'Projects',
+        'Projects:',
         (
+            ('pelicide', 'https://github.com/iksteen/pelicide'),
             ('pwnypack', 'https://github.com/edibledinos/pwnypack'),
             ('pelican-albums', 'https://github.com/iksteen/pelican-albums'),
             ('automatron', 'https://github.com/automatron'),
         ),
     ),
     (
-        '(Web)hosting providers',
+        'Other sites:',
         (
-            ('BASIC Networks', 'http://basicnetworks.net/'),
-            ('Network Solutions', 'http://www.networksolutions.com/'),
-            ('Soleus', 'http://soleus.nu/'),
-            ('TransIP', 'http://transip.nl/'),
-        ),
-    ),
-    (
-        'Software',
-        (
-            ('nginx', 'http://nginx.org/'),
-            ('Pelican', 'http://blog.getpelican.com/'),
-        ),
-    ),
-    (
-        'More me',
-        (
-            ('Google+', 'http://gplus.to/iksteen'),
-            ('LinkedIn', 'http://nl.linkedin.com/in/iksteen'),
-            ('Twitter', 'http://twitter.com/iksteen/'),
-            ('GitHub', 'http://github.com/iksteen/'),
-            ('Certified Edible Dinosaurs', 'http://ced.pwned.systems'),
+            ('<span class="fa fa-twitter"></span> Twitter', 'http://twitter.com/iksteen/'),
+            ('<span class="fa fa-github"></span> GitHub', 'http://github.com/iksteen/'),
+            ('<span class="fa fa-linkedin"></span> LinkedIn', 'http://nl.linkedin.com/in/iksteen'),
+            ('<span class="fa fa-google-plus"></span> Google+', 'http://gplus.to/iksteen'),
+            ('<span class="fa fa-play-circle-o"></span> Certified Edible Dinosaurs', 'http://ced.pwned.systems'),
         ),
     ),
 )
