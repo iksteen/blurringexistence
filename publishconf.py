@@ -16,5 +16,4 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
-FACEBOOK_APP_ID = '804471596310101'
 TWITTER_USERNAME = 'iksteen'
