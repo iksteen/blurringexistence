@@ -15,7 +15,7 @@ FILENAME_METADATA = '(?P<slug>.*)'
 THEME = 'themes/blurry'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['pelican_albums', 'summary']
+PLUGINS = ['pelican_albums', 'summary', 'tag_cloud']
 MD_EXTENSIONS = [
     'codehilite(css_class=highlight, guess_lang=False, linenums=False)',
     'extra',
