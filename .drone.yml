@@ -1,7 +1,7 @@
 pipeline:
   publish:
     image: plugins/docker
-    repo: registry.thegraveyard.org/blurringexistence-net
+    repo: registry.thegraveyard.org/blurringexistence.net
     dockerfile: Dockerfile
     registry: registry.thegraveyard.org
     secrets: [docker_username, docker_password]
