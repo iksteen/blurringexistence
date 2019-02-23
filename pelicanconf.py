@@ -43,10 +43,12 @@ LINKS = (
     (
         'Projects:',
         (
+            ('automatron', 'https://github.com/automatron'),
+            ('aws-request-signer', 'https://github.com/iksteen/aws-request-signer'),
+            ('component-injector', 'https://github.com/iksteen/component-injector'),
+            ('pelican-albums', 'https://github.com/iksteen/pelican-albums'),
             ('pelicide', 'https://github.com/iksteen/pelicide'),
             ('pwnypack', 'https://github.com/edibledinos/pwnypack'),
-            ('pelican-albums', 'https://github.com/iksteen/pelican-albums'),
-            ('automatron', 'https://github.com/automatron'),
         ),
     ),
     (
@@ -55,7 +57,6 @@ LINKS = (
             ('<span class="fa fa-twitter"></span> Twitter', 'http://twitter.com/iksteen/'),
             ('<span class="fa fa-github"></span> GitHub', 'http://github.com/iksteen/'),
             ('<span class="fa fa-linkedin"></span> LinkedIn', 'http://nl.linkedin.com/in/iksteen'),
-            ('<span class="fa fa-google-plus"></span> Google+', 'http://gplus.to/iksteen'),
             ('<span class="fa fa-play-circle-o"></span> Certified Edible Dinosaurs', 'http://ced.pwned.systems'),
         ),
     ),
