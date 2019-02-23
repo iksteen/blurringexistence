@@ -14,6 +14,6 @@ SITEURL = os.getenv('SITEURL', 'https://blurringexistence.net')
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 TWITTER_USERNAME = 'iksteen'
