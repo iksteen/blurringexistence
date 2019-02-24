@@ -156,7 +156,7 @@ class EagerSAObjectType(SQLAlchemyObjectType):
             field_meta = field_node.graphene_type._meta
 
             if isinstance(field_meta, ConnectionOptions):
-                # Relay connection. Resolve te connection's node type.
+                # Relay connection. Resolve the connection's node type.
                 field_node = info.schema.get_type(field_meta.node._meta.name)
                 field = _traverse_field(field, "edges", "node")
                 if field is None:
