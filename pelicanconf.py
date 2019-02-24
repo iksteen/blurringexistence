@@ -9,6 +9,8 @@ SITEURL = ''
 TIMEZONE = 'Europe/Amsterdam'
 DEFAULT_LANG = u'en'
 
+STATIC_PATHS = [u'images', u'downloads']
+
 RELATIVE_URLS = True
 PATH = 'content'
 FILENAME_METADATA = '(?P<slug>.*)'
