@@ -6,7 +6,7 @@ authors = ["Ingmar Steen <iksteen@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-Markdown = "^3.0"
+Markdown = "^2.6"
 pelican = "^4.0"
 typogrify = "^2.0.7"
 pelican-albums = "^0.6.1"
