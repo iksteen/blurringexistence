@@ -167,7 +167,11 @@ ul.tagcloud li.tag-4 {
 /* General styling */
 
 pre {
-    overflow: scroll;
+    overflow: auto;
+}
+
+.highlight > pre {
+    padding: 0.5em;
 }
 
 body,
