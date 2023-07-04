@@ -1,0 +1,20 @@
+pipeline:
+  publish:
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      repo: registry.thegraveyard.org/blurringexistence.net
+      dockerfile: Dockerfile
+      registry: registry.thegraveyard.org
+      username:
+        from_secret: private_docker_username
+      password:
+        from_secret: private_docker_password
+    when:
+      branch: woodpecker
+
+  deploy:
+    image: plugins/webhook
+    secrets: [webhook_username, webhook_password]
+    urls: https://deploy.thegraveyard.org/
+    when:
+      branch: master
